@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  MailApp
+
+  Created by Santiago Avila Arroyave on 2/21/19.
+  Copyright © 2019 Santiago Avila Arroyave. All rights reserved.
+*/
+
+// Feed Screen
+"Feed.NavigationBar.Title" = "Posts";
+"Feed.DeleteButton.Title" = "Delete All";
+"Feed.SegmentControl.All" = "All";
+"Feed.SegmentControl.Favorites" = "Favorites";
+
+// Detail Screen
+"Detail.NavigationBar.Title" = "Post";
+"Detail.Content.Description" = "Description";
+"Detail.Content.User" = "User";
+
+// Errors
+"Error.Title" = "Error";
+"Error.InvalidHost" = "Host is invalid";
+"Error.ParseFailed" = "Parse operation failed";
+"Error.InvalidData" = "Data returned from server is invalid";

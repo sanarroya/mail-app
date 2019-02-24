@@ -3,17 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2126FDD8222240B500B7C875 /* NotificationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2126FDD7222240B500B7C875 /* NotificationAttributes.swift */; };
+		2126FDDA22225EA400B7C875 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2126FDD922225EA400B7C875 /* CGRect+Extension.swift */; };
+		2126FDDC222260D300B7C875 /* ErrorNotificationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2126FDDB222260D300B7C875 /* ErrorNotificationProtocol.swift */; };
+		212F0D4A222051A000837B85 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F0D49222051A000837B85 /* APIClient.swift */; };
+		212F0D4C222051AF00837B85 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F0D4B222051AF00837B85 /* NetworkAdapter.swift */; };
+		212F0D50222055CB00837B85 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F0D4F222055CB00837B85 /* PostService.swift */; };
+		212F0D5322208BA300837B85 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F0D5222208BA300837B85 /* Post.swift */; };
+		212F0D5C22209E8100837B85 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F0D5A22209E8100837B85 /* FeedTableViewCell.swift */; };
+		212F0D5D22209E8100837B85 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212F0D5B22209E8100837B85 /* FeedTableViewCell.xib */; };
+		212F0D602220B5DE00837B85 /* CacheAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F0D5F2220B5DE00837B85 /* CacheAdapter.swift */; };
 		2139F181221F012800BF790E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2139F180221F012800BF790E /* AppDelegate.swift */; };
-		2139F183221F012800BF790E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2139F182221F012800BF790E /* ViewController.swift */; };
 		2139F186221F012800BF790E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2139F184221F012800BF790E /* Main.storyboard */; };
 		2139F189221F012800BF790E /* MailApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2139F187221F012800BF790E /* MailApp.xcdatamodeld */; };
-		2139F18B221F012900BF790E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2139F18A221F012900BF790E /* Assets.xcassets */; };
 		2139F18E221F012900BF790E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2139F18C221F012900BF790E /* LaunchScreen.storyboard */; };
 		2139F199221F012A00BF790E /* MailAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2139F198221F012A00BF790E /* MailAppTests.swift */; };
+		2156B57E221F2E71002B8610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2156B57D221F2E71002B8610 /* Assets.xcassets */; };
+		2156B582221F32B3002B8610 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2156B581221F32B3002B8610 /* Localizable.strings */; };
+		2156B586221F3319002B8610 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156B585221F3319002B8610 /* FeedViewController.swift */; };
+		2156B589221F3340002B8610 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156B588221F3340002B8610 /* FeedPresenter.swift */; };
+		2156B58B221F3397002B8610 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156B58A221F3397002B8610 /* FeedView.swift */; };
+		2156B58F221F3414002B8610 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156B58E221F3414002B8610 /* String+Extension.swift */; };
+		21CE0B0E22210D8F00D0EBC9 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B0D22210D8F00D0EBC9 /* RealmManager.swift */; };
+		21CE0B102221ADF600D0EBC9 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B0F2221ADF600D0EBC9 /* NetworkRequest.swift */; };
+		21CE0B122221AF5100D0EBC9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B112221AF5100D0EBC9 /* UIColor+Extension.swift */; };
+		21CE0B142221E97E00D0EBC9 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B132221E97E00D0EBC9 /* UserService.swift */; };
+		21CE0B1A2221ED2B00D0EBC9 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B192221ED2B00D0EBC9 /* DetailPresenter.swift */; };
+		21CE0B1C2221ED3700D0EBC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B1B2221ED3700D0EBC9 /* User.swift */; };
+		21CE0B1E2221F0F900D0EBC9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B1D2221F0F900D0EBC9 /* DetailView.swift */; };
+		21CE0B202221F56A00D0EBC9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE0B1F2221F56A00D0EBC9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +49,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2126FDD7222240B500B7C875 /* NotificationAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAttributes.swift; sourceTree = "<group>"; };
+		2126FDD922225EA400B7C875 /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		2126FDDB222260D300B7C875 /* ErrorNotificationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorNotificationProtocol.swift; sourceTree = "<group>"; };
+		212F0D49222051A000837B85 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		212F0D4B222051AF00837B85 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		212F0D4F222055CB00837B85 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		212F0D5222208BA300837B85 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		212F0D5622209B8F00837B85 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		212F0D5922209C0E00837B85 /* CarthageInput.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CarthageInput.xcfilelist; sourceTree = "<group>"; };
+		212F0D5A22209E8100837B85 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		212F0D5B22209E8100837B85 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		212F0D5F2220B5DE00837B85 /* CacheAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAdapter.swift; sourceTree = "<group>"; };
 		2139F17D221F012800BF790E /* MailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2139F180221F012800BF790E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2139F182221F012800BF790E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2139F185221F012800BF790E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2139F188221F012800BF790E /* MailApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MailApp.xcdatamodel; sourceTree = "<group>"; };
-		2139F18A221F012900BF790E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2139F18D221F012900BF790E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2139F18F221F012900BF790E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2139F194221F012A00BF790E /* MailAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2139F198221F012A00BF790E /* MailAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAppTests.swift; sourceTree = "<group>"; };
 		2139F19A221F012A00BF790E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2156B57D221F2E71002B8610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2156B581221F32B3002B8610 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2156B585221F3319002B8610 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2156B588221F3340002B8610 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		2156B58A221F3397002B8610 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		2156B58E221F3414002B8610 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		21CE0B0D22210D8F00D0EBC9 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		21CE0B0F2221ADF600D0EBC9 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		21CE0B112221AF5100D0EBC9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		21CE0B132221E97E00D0EBC9 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		21CE0B192221ED2B00D0EBC9 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		21CE0B1B2221ED3700D0EBC9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		21CE0B1D2221F0F900D0EBC9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		21CE0B1F2221F56A00D0EBC9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +104,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2126FDD6222240A200B7C875 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				2126FDD7222240B500B7C875 /* NotificationAttributes.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		212F0D482220519000837B85 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				212F0D49222051A000837B85 /* APIClient.swift */,
+				212F0D4B222051AF00837B85 /* NetworkAdapter.swift */,
+				212F0D4F222055CB00837B85 /* PostService.swift */,
+				21CE0B0F2221ADF600D0EBC9 /* NetworkRequest.swift */,
+				21CE0B132221E97E00D0EBC9 /* UserService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		212F0D5122208B9400837B85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				212F0D5222208BA300837B85 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		212F0D5522209B8F00837B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212F0D5622209B8F00837B85 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		212F0D5E2220B5C400837B85 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				212F0D5F2220B5DE00837B85 /* CacheAdapter.swift */,
+				21CE0B0D22210D8F00D0EBC9 /* RealmManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
 		2139F174221F012800BF790E = {
 			isa = PBXGroup;
 			children = (
 				2139F17F221F012800BF790E /* MailApp */,
 				2139F197221F012A00BF790E /* MailAppTests */,
 				2139F17E221F012800BF790E /* Products */,
+				212F0D5522209B8F00837B85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +171,15 @@
 		2139F17F221F012800BF790E /* MailApp */ = {
 			isa = PBXGroup;
 			children = (
+				21CE0B152221ECEC00D0EBC9 /* Detail */,
+				212F0D5E2220B5C400837B85 /* Cache */,
+				212F0D482220519000837B85 /* Networking */,
+				2156B58C221F33F3002B8610 /* Common */,
+				2156B583221F32E0002B8610 /* Feed */,
+				2156B57C221F2E4A002B8610 /* Assets */,
+				2156B57A221F2BFC002B8610 /* Supporting Files */,
 				2139F180221F012800BF790E /* AppDelegate.swift */,
-				2139F182221F012800BF790E /* ViewController.swift */,
 				2139F184221F012800BF790E /* Main.storyboard */,
-				2139F18A221F012900BF790E /* Assets.xcassets */,
 				2139F18C221F012900BF790E /* LaunchScreen.storyboard */,
 				2139F18F221F012900BF790E /* Info.plist */,
 				2139F187221F012800BF790E /* MailApp.xcdatamodeld */,
@@ -99,6 +196,107 @@
 			path = MailAppTests;
 			sourceTree = "<group>";
 		};
+		2156B57A221F2BFC002B8610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				212F0D5922209C0E00837B85 /* CarthageInput.xcfilelist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2156B57C221F2E4A002B8610 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2156B57D221F2E71002B8610 /* Assets.xcassets */,
+				2156B581221F32B3002B8610 /* Localizable.strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2156B583221F32E0002B8610 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				212F0D5122208B9400837B85 /* Model */,
+				2156B587221F3327002B8610 /* Presenter */,
+				2156B584221F32F3002B8610 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		2156B584221F32F3002B8610 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2156B585221F3319002B8610 /* FeedViewController.swift */,
+				2156B58A221F3397002B8610 /* FeedView.swift */,
+				212F0D5A22209E8100837B85 /* FeedTableViewCell.swift */,
+				212F0D5B22209E8100837B85 /* FeedTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2156B587221F3327002B8610 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2156B588221F3340002B8610 /* FeedPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2156B58C221F33F3002B8610 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2126FDD6222240A200B7C875 /* Notification */,
+				2156B58D221F33FF002B8610 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2156B58D221F33FF002B8610 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2156B58E221F3414002B8610 /* String+Extension.swift */,
+				21CE0B112221AF5100D0EBC9 /* UIColor+Extension.swift */,
+				2126FDD922225EA400B7C875 /* CGRect+Extension.swift */,
+				2126FDDB222260D300B7C875 /* ErrorNotificationProtocol.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		21CE0B152221ECEC00D0EBC9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				21CE0B182221ED1900D0EBC9 /* Presenter */,
+				21CE0B172221ED1300D0EBC9 /* Model */,
+				21CE0B162221ED0E00D0EBC9 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		21CE0B162221ED0E00D0EBC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21CE0B1D2221F0F900D0EBC9 /* DetailView.swift */,
+				21CE0B1F2221F56A00D0EBC9 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21CE0B172221ED1300D0EBC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21CE0B1B2221ED3700D0EBC9 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21CE0B182221ED1900D0EBC9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				21CE0B192221ED2B00D0EBC9 /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +307,7 @@
 				2139F179221F012800BF790E /* Sources */,
 				2139F17A221F012800BF790E /* Frameworks */,
 				2139F17B221F012800BF790E /* Resources */,
+				212F0D5822209BB800837B85 /* Run Script - Carthage */,
 			);
 			buildRules = (
 			);
@@ -181,7 +380,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2139F18E221F012900BF790E /* LaunchScreen.storyboard in Resources */,
-				2139F18B221F012900BF790E /* Assets.xcassets in Resources */,
+				212F0D5D22209E8100837B85 /* FeedTableViewCell.xib in Resources */,
+				2156B582221F32B3002B8610 /* Localizable.strings in Resources */,
+				2156B57E221F2E71002B8610 /* Assets.xcassets in Resources */,
 				2139F186221F012800BF790E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +396,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		212F0D5822209BB800837B85 /* Run Script - Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/MailApp/Supporting Files/CarthageInput.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Carthage";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2139F179221F012800BF790E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2139F183221F012800BF790E /* ViewController.swift in Sources */,
+				21CE0B102221ADF600D0EBC9 /* NetworkRequest.swift in Sources */,
+				21CE0B0E22210D8F00D0EBC9 /* RealmManager.swift in Sources */,
+				2156B586221F3319002B8610 /* FeedViewController.swift in Sources */,
+				2156B58F221F3414002B8610 /* String+Extension.swift in Sources */,
 				2139F189221F012800BF790E /* MailApp.xcdatamodeld in Sources */,
+				2126FDDA22225EA400B7C875 /* CGRect+Extension.swift in Sources */,
+				2156B589221F3340002B8610 /* FeedPresenter.swift in Sources */,
+				212F0D602220B5DE00837B85 /* CacheAdapter.swift in Sources */,
+				2126FDDC222260D300B7C875 /* ErrorNotificationProtocol.swift in Sources */,
+				21CE0B202221F56A00D0EBC9 /* DetailViewController.swift in Sources */,
+				212F0D4C222051AF00837B85 /* NetworkAdapter.swift in Sources */,
+				2126FDD8222240B500B7C875 /* NotificationAttributes.swift in Sources */,
+				2156B58B221F3397002B8610 /* FeedView.swift in Sources */,
+				21CE0B142221E97E00D0EBC9 /* UserService.swift in Sources */,
+				21CE0B122221AF5100D0EBC9 /* UIColor+Extension.swift in Sources */,
+				212F0D4A222051A000837B85 /* APIClient.swift in Sources */,
+				212F0D50222055CB00837B85 /* PostService.swift in Sources */,
 				2139F181221F012800BF790E /* AppDelegate.swift in Sources */,
+				21CE0B1C2221ED3700D0EBC9 /* User.swift in Sources */,
+				212F0D5322208BA300837B85 /* Post.swift in Sources */,
+				21CE0B1E2221F0F900D0EBC9 /* DetailView.swift in Sources */,
+				212F0D5C22209E8100837B85 /* FeedTableViewCell.swift in Sources */,
+				21CE0B1A2221ED2B00D0EBC9 /* DetailPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +608,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 687AW47ZYK;
+				DEVELOPMENT_TEAM = SFVRA5WZ6U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MailApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.santiago.MailApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,11 +631,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 687AW47ZYK;
+				DEVELOPMENT_TEAM = SFVRA5WZ6U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MailApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.santiago.MailApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
