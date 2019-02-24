@@ -24,7 +24,7 @@ MailApp is an app that lets the user fetch posts from [JSONPlaceHolder](https://
 
 * [Alamofire](https://github.com/Alamofire/Alamofire): Networking layer of the App.
 * [Realm](https://realm.io/docs/swift/latest): Cache layer of the App.
-* [ViewAnimator]https://github.com/marcosgriselli/ViewAnimator): Used for some animations
+* [ViewAnimator](https://github.com/marcosgriselli/ViewAnimator): Used for some animations
 * [SwiftEntryKit](https://github.com/huri000/SwiftEntryKit): Used to show error messages
 
 ### Transitive Dependencies
