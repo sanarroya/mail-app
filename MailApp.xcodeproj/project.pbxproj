@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -84,6 +84,11 @@
 		21CE0B1B2221ED3700D0EBC9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		21CE0B1D2221F0F900D0EBC9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		21CE0B1F2221F56A00D0EBC9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D94E2F7022238E44007609F2 /* SwiftEntryKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftEntryKit.framework; path = Carthage/Build/iOS/SwiftEntryKit.framework; sourceTree = "<group>"; };
+		D94E2F7122238E44007609F2 /* ViewAnimator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ViewAnimator.framework; path = Carthage/Build/iOS/ViewAnimator.framework; sourceTree = "<group>"; };
+		D94E2F7222238E44007609F2 /* QuickLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLayout.framework; path = Carthage/Build/iOS/QuickLayout.framework; sourceTree = "<group>"; };
+		D94E2F7322238E44007609F2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		D94E2F7422238E44007609F2 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,11 @@
 		212F0D5522209B8F00837B85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D94E2F7222238E44007609F2 /* QuickLayout.framework */,
+				D94E2F7322238E44007609F2 /* Realm.framework */,
+				D94E2F7422238E44007609F2 /* RealmSwift.framework */,
+				D94E2F7022238E44007609F2 /* SwiftEntryKit.framework */,
+				D94E2F7122238E44007609F2 /* ViewAnimator.framework */,
 				212F0D5622209B8F00837B85 /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -403,9 +413,14 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"$(SRCROOT)/MailApp/Supporting Files/CarthageInput.xcfilelist",
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+        "$(SRCROOT)/Carthage/Build/iOS/QuickLayout.framework",
+        "$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+        "$(SRCROOT)/Carthage/Build/iOS/SwiftEntryKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ViewAnimator.framework",
 			);
 			name = "Run Script - Carthage";
 			outputFileListPaths = (
